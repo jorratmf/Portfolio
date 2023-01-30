@@ -82,13 +82,13 @@ header li {
 }
 header a {
   display: block;
-  color: violet;
+  color: rgb(182, 242, 42);
   padding: 10px;
 }
 header a:hover {
-  color: #999999;
+  color: violet;
   text-decoration: none;
-  background: #eee;
+  background: #333333;
   border-radius: 4px;
 }
 header a:focus {
@@ -111,7 +111,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: violet;
+  color: #111111;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -122,12 +122,12 @@ header.sticky {
   display: none;
   text-align: right;
   width: 100%;
-  background: #fff;
+  background: #111111;
   font-size: 1.5em;
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: violet;
+  color: #fff;
 }
 #mobile-menu-close span {
   font-size: 0.5em;
@@ -183,16 +183,18 @@ footer {
   color: violet;
 }
 .btn-rounded-white {
+  background: #111111;
   display: inline-block;
-  color: #fff;
+  color: violet;
   padding: 15px 25px;
-  border: 3px solid #fff;
+  border: 3px solid violet;
   border-radius: 30px;
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-  color: violet;
-  background: #fff;
+  color:rgb(182, 242, 42);
+  border: 3px solid rgb(182, 242, 42);
+  background: #333333;
   text-decoration: none;
 }
 .shadow {
@@ -266,8 +268,9 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(129, 129, 129, 0.75);
+  background: #111111;
   z-index: 1;
+  opacity: 0.75;
 }
 #lead-down {
   position: absolute;
@@ -286,7 +289,7 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #a0cfee;
+  border: 3px solid #fff;
   text-align: center;
 }
 #lead-down i {
@@ -310,20 +313,20 @@ footer {
   border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-  color: #374054;
+  color: #fff;
 }
 #about p {
-  color: #74808a;
+  color: #999999;
   margin: 0;
 }
 #experience {
-  background: black;
+  background: #222222;
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
 }
 #experience h2 {
-  color: #374054;
+  color: #fff;
 }
 #experience-timeline {
   margin: 30px auto 0 auto;
@@ -348,7 +351,7 @@ footer {
   width: 3px;
   height: 40px;
   background: violet;
-  background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+  background: linear-gradient(to bottom, rgb(182, 242, 42), rgba(52, 152, 219, 0));
   top: 100%;
   left: 303px;
 }
@@ -451,7 +454,7 @@ footer {
   padding: 0 0 0 15px;
 }
 #projects {
-  background: black;
+  background: #222222;
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
@@ -524,7 +527,7 @@ footer {
 }
 #contact {
   padding: 50px 15px;
-  background: violet;
+  background: #222222;
   text-align: center;
 }
 #contact h2 {
@@ -544,7 +547,7 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background:#290621;
   color: #fff;
   transition: 0.5s ease all;
 }
@@ -569,7 +572,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  background: #16527a;
+  background: #111111;
 }
 #contact-form textarea {
   height: 150px;
@@ -578,11 +581,11 @@ footer {
 #contact-form button {
   display: block;
   width: 100%;
-  background: #fff;
+  background: #111111;
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: violet;
+  color: rgb(182, 242, 42);
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s ease all;
