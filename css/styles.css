@@ -342,7 +342,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: violet;
+  background: rgb(182, 242, 42);
   z-index: 0;
 }
 #experience-timeline:after {
@@ -350,14 +350,14 @@ footer {
   content: "";
   width: 3px;
   height: 40px;
-  background: violet;
+  background: #666666;
   background: linear-gradient(to bottom, rgb(182, 242, 42), rgba(52, 152, 219, 0));
   top: 100%;
   left: 303px;
 }
 .vtimeline-content {
   margin-left: 350px;
-  background: #fff;
+  background: azure;
   border: 1px solid #e6e6e6;
   padding: 15px;
   border-radius: 3px;
@@ -377,7 +377,7 @@ footer {
   margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-  color: #74808a;
+  color: #1111111;
   font-size: 0.9em;
   margin: 0;
 }
@@ -409,8 +409,8 @@ footer {
   position: absolute;
   left: 0;
   top: 10px;
-  font-weight: 300;
-  color: #374054;
+  font-weight: 500;
+  color: violet;
 }
 #education {
   padding: 50px 15px 20px 15px;
