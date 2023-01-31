@@ -308,6 +308,12 @@ footer {
     transform: scale(1, 1);
   }
 }
+#construction{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 #about {
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
@@ -377,7 +383,7 @@ footer {
   margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-  color: #1111111;
+  color: #111111;
   font-size: 0.9em;
   margin: 0;
 }
