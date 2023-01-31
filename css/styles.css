@@ -308,11 +308,28 @@ footer {
     transform: scale(1, 1);
   }
 }
-#construction{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+#construction {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  size: 300px;
+}
+#imgcons {
+  background-color: yellow;;
+  margin-top: auto;
+  max-width: 50%;
+  width: 100%;
+}
+#googlesite{
+  font-weight: bolder;
+  font-size: larger;
+  color: #111111;
+}
+.col-md-8{
+  text-align: justify;
 }
 #about {
   padding: 75px 15px;
