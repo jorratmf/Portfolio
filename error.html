@@ -3,24 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <title>Error 404</title>
+
     <style>
-img{
-    width: 100%;
-}
       .container {
-        text-align: center;
-        padding: 50px;
+        position: relative;
       }
-      h1 {
-        font-size: 72px;
+      
+      .container img {
+        width: 100%;
+      }
+      
+      .container button {
+        position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      }
+ 
+      button{
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: large;
+  background: #111111;
+  display: inline-block;
+  color: white;
+  padding: 15px 25px;
+  border: 3px solid violet;
+  border-radius: 30px;
+  transition: 0.5s ease all;
+}
+button:hover {
+        color:rgb(182, 242, 42);
+  border: 3px solid rgb(182, 242, 42);
+  background: #333333;
+  text-decoration: none;
       }
     </style>
-  </head>
-  <body>
-    <img src="./images/Error 404.jpg" alt="">
+    
     <div class="container">
+      <img src="./images/Error 404.jpg" alt="Mi imagen">
       <a href="https://jorratmariaflorencia.netlify.app/">
-      <button>Volver a la página principal</button></a>
+      <button>RETURN</button></a>
     </div>
-  </body>
 </html>
