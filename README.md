@@ -15,7 +15,6 @@
 - Photoshop
 - Canva
 
+### License
 
-### Licencia
-
-Este proyecto está licenciado bajo la licencia MIT.
+This project is licensed under the MIT license.
