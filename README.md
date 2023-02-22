@@ -1,9 +1,6 @@
 # My portfolio
 
-## Project for Rolling CodeSchool (47i)
-
 ## [Visit my site](https://jorratmariaflorencia.netlify.app/)
-
 
 ### Technologies Used
 
