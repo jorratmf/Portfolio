@@ -2,7 +2,7 @@
 
 ## Project for Rolling CodeSchool (47i)
 
-## [Visit my site](https://jorratmariaflorencia.netlify.app/)
+## [Visit my site](https://jorratmaria.pages.dev/)
 
 
 ### Technologies Used
