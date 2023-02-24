@@ -1,4 +1,4 @@
-/*!
+/*
     Title: Dev Portfolio Template
     Version: 1.2.2
     Last Change: 03/25/2020
@@ -116,7 +116,7 @@ header.sticky {
   z-index: 20;
   padding: 0 7px;
   border-radius: 4px;
-  background: #fff;
+  background: azure;
 }
 #mobile-menu-close {
   display: none;
@@ -127,7 +127,7 @@ header.sticky {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #fff;
+  color: azure;
 }
 #mobile-menu-close span {
   font-size: 0.5em;
@@ -222,7 +222,7 @@ footer {
   background: #db34bc;
 }
 .background-alt {
-  background: #f2f2f5;
+  background: azure;
 }
 #lead {
   position: relative;
@@ -247,7 +247,7 @@ footer {
   margin: 0;
 }
 #lead-content h1 {
-  color: #fff;
+  color: azure;
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
@@ -280,7 +280,7 @@ footer {
   text-align: center;
   z-index: 10;
   bottom: 15px;
-  color: #fff;
+  color: azure;
 }
 #lead-down span {
   cursor: pointer;
@@ -289,7 +289,7 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid azure;
   text-align: center;
 }
 #lead-down i {
@@ -332,18 +332,21 @@ footer {
   text-align: justify;
 }
 #about {
+  background-color:  rgb(186, 224, 96);
   padding: 75px 15px;
   border-bottom: 1px solid azure;
 }
 #about h2 {
-  color: azure;
+  color: #111111;
+  font-weight: 400;
 }
 #about p {
-  color: azure;
+  color: #111111;
+  font-weight: 600;
   margin: 0;
 }
 #experience {
-  background: #222222;
+  background: #111111;
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid azure;
@@ -435,6 +438,7 @@ footer {
   color: rgb(182, 242, 42);
 }
 #education {
+  background-color: #111111;
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
@@ -444,8 +448,10 @@ footer {
   margin-bottom: 50px;
 }
 .education-block {
+  background-color: #222222;
   max-width: 700px;
   margin: 0 auto 30px auto;
+  border-radius: 5px;
   padding: 15px;
   border: 1px solid #999999;
   text-align: left;
@@ -476,7 +482,7 @@ footer {
   padding: 0 0 0 15px;
 }
 #projects {
-  background: #222222;
+  background: #111111;
   padding: 50px 15px;
   border-bottom: 1px solid azure;
   text-align: center;
@@ -539,6 +545,7 @@ footer {
   max-width: 800px;
 }
 #skills li {
+  border-radius: 5px;
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -550,7 +557,7 @@ footer {
 }
 #contact {
   padding: 50px 15px;
-  background: #222222;
+  background: #111111;
   text-align: center;
 }
 #contact h2 {
@@ -748,6 +755,7 @@ footer {
     top: auto;
     transform: none;
   }
+
   footer {
     text-align: center;
   }
