@@ -192,7 +192,7 @@ footer {
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-  color:rgb(182, 242, 42);
+  color: rgb(182, 242, 42);
   border: 3px solid rgb(182, 242, 42);
   background: #333333;
   text-decoration: none;
@@ -318,21 +318,21 @@ footer {
   size: 300px;
 }
 #imgcons {
-  background-color: yellow;;
+  background-color: yellow;
   margin-top: auto;
   max-width: 50%;
   width: 100%;
 }
-#googlesite{
+#googlesite {
   font-weight: bolder;
   font-size: larger;
   color: #111111;
 }
-.col-md-8{
+.col-md-8 {
   text-align: justify;
 }
 #about {
-  background-color:  rgb(186, 224, 96);
+  background-color: rgb(186, 224, 96);
   padding: 75px 15px;
   border-bottom: 1px solid azure;
 }
@@ -383,7 +383,7 @@ footer {
 }
 .vtimeline-content {
   margin-left: 350px;
-  background: azure;
+  background: #f8f9fa;
   border: 1px solid #e6e6e6;
   padding: 15px;
   border-radius: 3px;
@@ -440,7 +440,7 @@ footer {
 #education {
   background-color: #111111;
   padding: 50px 15px 20px 15px;
-  border-bottom: 1px solid #dcd9d9;
+  border-bottom: 1px solid #333333;
   text-align: center;
 }
 #education h2 {
@@ -448,12 +448,11 @@ footer {
   margin-bottom: 50px;
 }
 .education-block {
-  background-color: #222222;
+  background-color: #212529;
   max-width: 700px;
   margin: 0 auto 30px auto;
   border-radius: 5px;
   padding: 15px;
-  border: 1px solid #999999;
   text-align: left;
 }
 .education-block h3 {
@@ -577,7 +576,7 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background:#555555;
+  background: #212529;
   color: azure;
   transition: 0.5s ease all;
 }
@@ -602,7 +601,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  background: #111111;
+  background: #333333;
 }
 #contact-form textarea {
   height: 150px;
@@ -611,7 +610,7 @@ footer {
 #contact-form button {
   display: block;
   width: 100%;
-  background: #777777;
+  background: #333333;
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
