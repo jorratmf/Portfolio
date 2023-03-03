@@ -384,7 +384,7 @@ footer {
 .vtimeline-content {
   margin-left: 350px;
   background: #f8f9fa;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #f8f9fa;
   padding: 15px;
   border-radius: 3px;
   text-align: left;
@@ -483,51 +483,12 @@ footer {
 #projects {
   background: #111111;
   padding: 50px 15px;
-  border-bottom: 1px solid azure;
+  border-bottom: 1px solid #333333;
   text-align: center;
 }
 #projects h2 {
   color: azure;
-  margin-bottom: 50px;
-}
-.project {
-  position: relative;
-  max-width: 900px;
-  margin: 0 auto 30px auto;
-  overflow: hidden;
-  background: azure;
-  border-radius: 4px;
-}
-.project-image {
-  float: left;
-}
-.project-info {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 15px;
-}
-.project-info h3 {
-  font-size: 1.5em;
-  font-weight: 300;
-  color: #222222;
-  font-weight: 400;
-  margin: 0 0 15px 0;
-}
-.project-info p {
-  color: #111111;
-  margin: 0 0 15px 0;
-  font-size: 0.9em;
-}
-.no-image .project-info {
-  position: relative;
-  margin: 0;
-  padding: 30px 15px;
-  transform: none;
-}
-#more-projects {
-  display: none;
+  margin-bottom: 25px;
 }
 #skills {
   padding: 50px 15px;
@@ -549,7 +510,7 @@ footer {
   margin: 7px;
   padding: 5px 10px;
   color: #111111;
-  background: azure;
+  background: #f8f9fa;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
