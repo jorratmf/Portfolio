@@ -1,7 +1,5 @@
 # My portfolio
 
-## [Visit my site](https://jorratmf.pages.dev/)
-
 ### Technologies Used
 
 #### Dev
